@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+
+  font-family:
+  "Segoe UI",
+  sans-serif;
+
+  background:#F8FAFC;
+
+  color:#1F2937;
+
+  overflow-x:hidden;
+
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+img{
+  display:block;
+  max-width:100%;
+}
+
+button{
+  cursor:pointer;
+  border:none;
+}
+
+.container{
+
+  width:90%;
+
+  max-width:1400px;
+
+  margin:auto;
+
+}

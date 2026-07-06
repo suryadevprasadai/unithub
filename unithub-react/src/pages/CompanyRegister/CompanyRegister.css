@@ -1,0 +1,311 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.company-register{
+
+    width:100%;
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#f5f7fb;
+
+    padding:60px 20px;
+
+}
+
+.company-register-box{
+
+    width:700px;
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+
+}
+
+.company-register-box h1{
+
+    text-align:center;
+
+    color:#5B21B6;
+
+    margin-bottom:10px;
+
+    font-size:34px;
+
+}
+
+.company-register-box p{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:30px;
+
+}
+
+.company-register-box form{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:18px;
+
+}
+
+.company-register-box input{
+
+    width:100%;
+
+    height:52px;
+
+    border:1px solid #ddd;
+
+    border-radius:12px;
+
+    padding:0 15px;
+
+    font-size:15px;
+
+}
+
+.company-register-box input:focus{
+
+    outline:none;
+
+    border-color:#5B21B6;
+
+}
+
+.company-register-box button{
+
+grid-column:1 / -1;
+
+width:320px;
+
+height:55px;
+
+margin:15px auto 0;
+
+display:block;
+
+background:#FF6B00;
+
+color:#fff;
+
+border:none;
+
+border-radius:12px;
+
+font-size:18px;
+
+font-weight:600;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.company-register-box button:hover{
+
+    background:#e85f00;
+
+}
+
+.login-link{
+
+    margin-top:25px;
+
+    text-align:center;
+
+}
+
+.login-link a{
+
+    color:#5B21B6;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.login-link a:hover{
+
+    text-decoration:underline;
+
+}
+
+@media(max-width:768px){
+
+.register-box{
+
+width:100%;
+
+}
+
+.register-box form{
+
+grid-template-columns:1fr;
+
+}
+
+.register-box button{
+
+grid-column:1;
+
+}
+
+}
+.company-password-box{
+
+position:relative;
+
+width:100%;
+
+}
+
+.company-password-box input{
+
+width:100%;
+
+height:52px;
+
+padding:0 50px 0 15px;
+
+border:1px solid #ddd;
+
+border-radius:12px;
+
+font-size:15px;
+
+background:#fff;
+
+}
+
+.company-password-box span{
+
+position:absolute;
+
+top:50%;
+
+right:15px;
+
+transform:translateY(-50%);
+
+cursor:pointer;
+
+color:#777;
+
+font-size:18px;
+
+}
+
+.password-success{
+
+grid-column:1/3;
+
+color:#16a34a;
+
+font-size:14px;
+
+font-weight:600;
+
+margin-top:-10px;
+
+margin-bottom:-5px;
+
+}
+
+.password-error{
+
+grid-column:1/3;
+
+color:#dc2626;
+
+font-size:14px;
+
+font-weight:600;
+
+margin-top:-10px;
+
+margin-bottom:-5px;
+
+}
+
+.file-upload{
+
+display:flex;
+
+flex-direction:column;
+
+gap:8px;
+
+}
+
+.file-upload>label:first-child{
+
+font-size:15px;
+
+font-weight:600;
+
+color:#444;
+
+}
+
+.custom-file{
+
+height:58px;
+
+border:1px solid #ddd;
+
+border-radius:12px;
+
+display:flex;
+
+align-items:center;
+
+padding:0 20px;
+
+background:white;
+
+cursor:pointer;
+
+font-size:15px;
+
+color:#777;
+
+transition:.3s;
+
+}
+
+.custom-file:hover{
+
+border-color:#FF6B00;
+
+color:#FF6B00;
+
+}
+
+.custom-file::before{
+
+content:"📁";
+
+margin-right:12px;
+
+font-size:18px;
+
+}

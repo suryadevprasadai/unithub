@@ -1,0 +1,235 @@
+.company-profile{
+
+min-height:100vh;
+
+background:#f5f7fb;
+
+padding:50px 20px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+.profile-box{
+
+width:100%;
+
+max-width:900px;
+
+background:#fff;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.profile-box h1{
+
+text-align:center;
+
+font-size:34px;
+
+color:#5B21B6;
+
+margin-bottom:35px;
+
+}
+
+/* ---------- Form ---------- */
+
+.profile-box form{
+
+display:flex;
+
+flex-direction:column;
+
+gap:18px;
+
+}
+
+.profile-box label{
+
+font-size:16px;
+
+font-weight:600;
+
+color:#444;
+
+margin-top:10px;
+
+}
+
+.profile-box input,
+
+.profile-box textarea{
+
+width:100%;
+
+padding:15px;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+font-size:16px;
+
+outline:none;
+
+transition:.3s;
+
+font-family:inherit;
+
+}
+
+.profile-box input:focus,
+
+.profile-box textarea:focus{
+
+border-color:#5B21B6;
+
+box-shadow:0 0 8px rgba(91,33,182,.15);
+
+}
+
+.profile-box textarea{
+
+resize:none;
+
+min-height:140px;
+
+}
+
+/* ---------- cover_url ---------- */
+
+.cover_url-preview{
+
+width:100%;
+
+height:220px;
+
+object-fit:cover;
+
+border-radius:15px;
+
+border:2px solid #ddd;
+
+margin-top:8px;
+
+}
+
+/* ---------- logo_url---------- */
+
+.logo-preview{
+
+width:140px;
+
+height:140px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+border:5px solid #fff;
+
+box-shadow:0 4px 15px rgba(0,0,0,.2);
+
+background:#fff;
+
+margin:15px auto;
+
+display:block;
+
+}
+
+/* ---------- Upload ---------- */
+
+.profile-box input[type="file"]{
+
+padding:12px;
+
+background:#fafafa;
+
+cursor:pointer;
+
+}
+
+/* ---------- Button ---------- */
+
+.save-btn{
+
+margin-top:20px;
+
+height:55px;
+
+background:#FF6B00;
+
+color:#fff;
+
+font-size:18px;
+
+font-weight:600;
+
+border:none;
+
+border-radius:10px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.save-btn:hover{
+
+background:#e45f00;
+
+transform:translateY(-2px);
+
+}
+
+.save-btn:disabled{
+
+opacity:.6;
+
+cursor:not-allowed;
+
+}
+
+/* ---------- Responsive ---------- */
+
+@media(max-width:768px){
+
+.profile-box{
+
+padding:25px;
+
+}
+
+.profile-box h1{
+
+font-size:28px;
+
+}
+
+.cover_url-preview{
+
+height:170px;
+
+}
+
+.logo-preview{
+
+width:110px;
+
+height:110px;
+
+}
+
+}
