@@ -106,8 +106,8 @@ function Navbar() {
               </Link>
 
               <Link to="/company-register" className="register-btn">
-                company 
                 Register
+                company 
               </Link>
 
             </>
