@@ -109,7 +109,7 @@ function AddProduct() {
 
           {
 
-            company_id: company.id,
+           company_id: company.id,
 
             product_name: product.product_name,
 

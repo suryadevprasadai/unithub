@@ -26,7 +26,7 @@ function DeleteAccount() {
     const { error: productError } = await supabase
       .from("products")
       .delete()
-      .eq("company_id", user.id);
+      .eq("company_id", company.id)
 
     if (productError) {
       alert(productError.message);
